@@ -15,9 +15,9 @@ def requestConnect():
     jar.set('SMFCookie89', '[cookie]') #Attribuer le cookie à SMFCookie89
     session.cookies = jar
 
-    r = session.get('https://www.newbiecontest.org/epreuves/prog/prog4.php') #récupérer le premier nombre
+    r = session.get('https://www.newbiecontest.org/epreuves/prog/prog4.php')
 
-    resultat = r.text
+    resultat = r.text #récupération de l'équation
 
     return resultat
 
