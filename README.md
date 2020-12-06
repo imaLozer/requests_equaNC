@@ -8,7 +8,9 @@ Récupération du texte sur la page et utilisation REGEX dans le script pour pou
 
 Transition par des cast
 
-Renvoi une requête à : https://www.newbiecontest.org/epreuves/prog/verifpr4.php?solution= + flag
+Calcule de l'équation
+
+Renvoi une requête à : https://www.newbiecontest.org/epreuves/prog/verifpr4.php?solution= + result_equa
 
 
 
